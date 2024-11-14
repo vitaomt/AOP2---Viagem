@@ -1,0 +1,274 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Cabeçalho fixo */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1976d2;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #1976d2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #90caf9;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#intro h2 {
+    font-size: 1.8em;
+    color: #1976d2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Destinos em destaque */
+#destaques {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.estado-destaque {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.estado-destaque h4 {
+    font-size: 1.6em;
+    color: #1976d2;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.destinos-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.destino {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.destino:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destino img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino p {
+    padding: 10px;
+    color: #555;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.destino a {
+    text-decoration: none;
+}
+
+/* Rodapé fixo */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1976d2;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #destaques {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/* Estilos para a página de contato */
+#contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1565c0;
+}
+
+
+/* Estilos para a página de dicas */
+#dicas {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dica {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dica h3 {
+    color: #1976d2;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.dica p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
