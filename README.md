@@ -31,8 +31,8 @@ A atividade requer a criação de um blog em HTML, CSS e JavaScript seguindo as 
 
 ### 🔗 Links do Projeto
 
-- **Repositório GitHub**: [Link do repositório](#)
-- **Publicação no GitHub Pages**: [Link da publicação](#)
+- **Repositório GitHub**: [Link do repositório](https://github.com/vitaomt/belezas-do-interior-do-brasil.git)
+- **Publicação no GitHub Pages**: [Link da publicação](https://vitaomt.github.io/belezas-do-interior-do-brasil/index.html)
 
 ---
 
