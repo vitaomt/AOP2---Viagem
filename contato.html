@@ -8,7 +8,8 @@
     <!-- Meta tags para SEO -->
     <meta name="description" content="Entre em contato com o blog Belezas do Interior do Brasil para tirar dúvidas ou enviar sugestões.">
     <meta name="keywords" content="Contato, Blog, Belezas do Interior, Viagem">
-    <meta name="author" content="Belezas do Interior do Brasil">
+    <meta name="author"
+          content="Ana Júlia Negrini Matias, Pedro Henrick Lima Gomes, Vitor Machado Trigo, Gustavo Nunes Noia">
 
     <!-- Configurações de cores para navegadores -->
     <meta name="theme-color" content="#1976d2">
@@ -27,6 +28,10 @@
     <div class="header-container">
         <img src="imagens/logo2.png" alt="Logo do Blog Belezas do Interior do Brasil" class="logo">
         <h1>Belezas do Interior do Brasil</h1>
+        <!-- Ícone do menu hambúrguer (permanece no HTML, mas será exibido apenas em dispositivos móveis) -->
+        <button aria-expanded="false" aria-label="Abrir menu de navegação" class="menu-toggle">
+            &#9776;
+        </button>
     </div>
     <nav>
         <ul>
@@ -64,12 +69,32 @@
             </div>
             <button type="submit">Enviar</button>
         </form>
+        <br>
+        <br>
+        <!-- Adicionando nomes dos alunos e tipo de trabalho -->
+        <p><strong>Desenvolvido por:</strong> Ana Júlia Negrini Matias, Pedro Henrick Lima Gomes, Vitor Machado Trigo e
+            Gustavo Nunes Noia.</p>
+        <p><em><strong>Atividade Online Pontuada 02 (AOP2) - Programação Web - Front End</strong></em></p>
     </section>
 </main>
 
 <!-- Rodapé fixo -->
 <footer>
-    <p>&copy; 2024 Belezas do Interior do Brasil - Todos os direitos reservados.</p>
+    &copy; 2024 Belezas do Interior do Brasil - Todos os direitos reservados.
 </footer>
+
+<!-- Script JavaScript -->
+<script>
+    // Seleciona o botão e o menu
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+
+    // Adiciona o evento de clique ao botão
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+        const isActive = nav.classList.contains('active');
+        menuToggle.setAttribute('aria-expanded', isActive);
+    });
+</script>
 </body>
-</
+</html>

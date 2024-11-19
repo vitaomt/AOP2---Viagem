@@ -10,8 +10,11 @@ Este projeto consiste em um blog desenvolvido como parte da **Atividade Online P
 - **Professor**: Fabrício Ribeiro Ferreira
 - **Tutor(a)**: Edgar Salardani Senhorello
 - **Atividade**: Atividade Online Pontuada 02 (AOP2)
-- **Aluno**: Vitor Machado Trigo
-- **Matrícula**: 202415144
+- **Alunos**:
+   - **Ana Júlia Negrini Matias** - **Matrícula**: 202418945
+   - **Pedro Henrick Lima Gomes** - **Matrícula**: 202418304
+   - **Vitor Machado Trigo** - **Matrícula**: 202415144
+   - **Gustavo Nunes Noia** - **Matrícula**: 202421078
 - **Curso**: Análise e Desenvolvimento de Sistemas
 - **Universidade**: Universidade Vila Velha
 
@@ -21,11 +24,11 @@ A atividade requer a criação de um blog em HTML, CSS e JavaScript seguindo as 
 
 1. **Tema**: Viagem, focando nos destinos do interior do Brasil.
 2. **Estrutura do Blog**:
-    - **Home**: Página inicial com introdução ao blog e imagens de destaque para os principais conteúdos.
-    - **Minas Gerais**: Página dedicada aos destinos em Minas Gerais.
-    - **Espírito Santo**: Página com informações sobre destinos no Espírito Santo.
-    - **Dicas de Viagem**: Página com orientações de viagem, incluindo planejamento, segurança e sugestões de lugares.
-    - **Contato**: Formulário para que os visitantes possam entrar em contato com o blog.
+   - **Home**: Página inicial com introdução ao blog e imagens de destaque para os principais conteúdos.
+   - **Minas Gerais**: Página dedicada aos destinos em Minas Gerais.
+   - **Espírito Santo**: Página com informações sobre destinos no Espírito Santo.
+   - **Dicas de Viagem**: Página com orientações de viagem, incluindo planejamento, segurança e sugestões de lugares.
+   - **Contato**: Formulário para que os visitantes possam entrar em contato com o blog.
 3. **Navegação**: Cada página inclui um menu de navegação persistente, com links para as cinco principais páginas.
 4. **Layout e Estética**: Seguindo o padrão Material Design, com espaçamento adequado e design responsivo, focando em uma experiência visual limpa e moderna.
 
@@ -63,20 +66,20 @@ belezas-do-interior-do-brasil/
 ## 🔍 Funcionalidades e Páginas
 
 1. **Página Home**:
-    - Apresenta o blog e seu propósito.
-    - Exibe imagens de destaque com links diretos para páginas específicas de cada destino.
+   - Apresenta o blog e seu propósito.
+   - Exibe imagens de destaque com links diretos para páginas específicas de cada destino.
 
 2. **Página Minas Gerais**:
-    - Detalha destinos turísticos em Minas Gerais, com imagens e descrições.
+   - Detalha destinos turísticos em Minas Gerais, com imagens e descrições.
 
 3. **Página Espírito Santo**:
-    - Contém informações sobre os destinos turísticos no Espírito Santo, seguindo o mesmo padrão visual das outras páginas.
+   - Contém informações sobre os destinos turísticos no Espírito Santo, seguindo o mesmo padrão visual das outras páginas.
 
 4. **Página Dicas de Viagem**:
-    - Oferece orientações úteis para viagens, incluindo tópicos como planejamento, segurança e destinos recomendados.
+   - Oferece orientações úteis para viagens, incluindo tópicos como planejamento, segurança e destinos recomendados.
 
 5. **Página Contato**:
-    - Inclui um formulário de contato com campos de entrada para nome, e-mail, assunto e mensagem, permitindo que os visitantes enviem mensagens ao blog.
+   - Inclui um formulário de contato com campos de entrada para nome, e-mail, assunto e mensagem, permitindo que os visitantes enviem mensagens ao blog.
 
 ---
 
@@ -97,9 +100,14 @@ Este trabalho visa desenvolver habilidades em:
 - **Valor da Atividade**: 2,0 pontos.
 - **Observação**: O trabalho pode ser realizado em grupo de até 4 pessoas. Apenas um integrante é responsável pelo envio.
 
-## Dados do Aluno
+## 📖 Dados dos Alunos
 
-**Aluno:** Vitor Machado Trigo  
-**Matrícula:** 202415144  
+**Alunos:**
+
+- **Ana Júlia Negrini Matias** - **Matrícula**: 202418945
+- **Pedro Henrick Lima Gomes** - **Matrícula**: 202418304
+- **Vitor Machado Trigo** - **Matrícula**: 202415144
+- **Gustavo Nunes Noia** - **Matrícula**: 202421078
+
 **Curso:** Análise e Desenvolvimento de Sistemas  
 **Universidade:** Universidade Vila Velha

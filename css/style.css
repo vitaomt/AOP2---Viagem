@@ -30,18 +30,33 @@ header {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    position: relative;
     text-align: center;
 }
 
 .logo {
     width: 40px;
     height: 40px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 header h1 {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+/* Estilo para o botão do menu hambúrguer */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Menu de navegação */
@@ -178,10 +193,49 @@ footer {
     #destaques {
         flex-direction: column;
     }
+
+    /* Exibir o botão do menu hambúrguer */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Ajustar o header-container */
+    .header-container {
+        justify-content: center;
+    }
+
+    /* Ocultar o menu de navegação por padrão */
+    nav {
+        display: none;
+    }
+
+    /* Estilos para mostrar o menu quando ativo */
+    nav.active {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #1976d2;
+        z-index: 1000;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
 
-
-
+/* Estilos para manter o menu horizontal em telas maiores */
+@media (min-width: 769px) {
+    nav {
+        display: block;
+    }
+}
 
 /* Estilos para a página de contato */
 #contato {
@@ -242,7 +296,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #1565c0;
 }
-
 
 /* Estilos para a página de dicas */
 #dicas {
